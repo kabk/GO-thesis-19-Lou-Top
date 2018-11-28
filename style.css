@@ -1,0 +1,78 @@
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 1em;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  display: center;
+  text-align: justify;
+
+
+}
+
+@font-face {
+    font-family: Fleischmann;
+    src: url('Fleischmann.otf');
+}
+
+h1 {
+  font-weight: normal;
+  position: center;
+}
+
+#1magicbutton, #2dmagicbutton, #3magicbutton, #4magicbutton,
+#5magicbutton, #6magicbutton, #7magicbutton, #8magicbutton,
+#9magicbutton, #10magicbutton, #11magicbutton, #12magicbutton
+#13magicbutton, #14magicbutton, #15magicbutton, #16magicbutton,
+#17magicbutton, #18magicbutton, #19magicbutton, #20magicbutton,
+#21magicbutton, #22magicbutton, #23magicbutton, #24magicbutton
+
+
+.mybutton {
+  width: 5em;
+  outline:0;
+  font-size: 5em;
+  border-radius: 0.2em;
+  //display: inline-block;
+
+}
+.mybutton button {
+  width: 50px;
+  height: 50px;
+
+}
+
+.text {
+  position: fixed;
+  font-family: Fleischmann;
+  font-weight: bold;
+  color: #FF00FF;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  font-size: 3.2em;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  -webkit-text-stroke: 0.2px black;
+}
+
+textarea {
+  margin: 50px;
+  width: 30%;
+  height: 300px;
+  font-family: Fleischmann;
+  color: #ffc700;
+  font-size: 1em;
+  text-align: center;
+  -webkit-text-stroke: 1.5px black;
+  background: none;
+}
+
+marquee {
+ font-size: 20px;
+ font-family: Fleischmann;
+ overflow: hidden;
+ position: relative;
+ color: #ffc700;
+}
